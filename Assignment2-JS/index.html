@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <section class="parent">
+        
+<div class="child">
+    <div class="p1"><h1><u>COMPANY NAME :-</u></h1>
+<P>TAGLINE GOES HERE</P>
+    </div>
+    
+    <div class="p2">
+        
+    </div>
+    <div class="p3">
+        <h1><u>NAME SURNAME</u></h1>
+        <p>Graphic Designer</p>
+    </div>
+    <div id="container">
+        <form id="myForm">
+            <label for="id">ID:</label>
+            <input type="text" id="id" name="id" placeholder="AB-0000">
+            <span class="error" id="idError"></span>
+
+            <label for="dob">DOB:</label>
+            <input type="date" id="dob" name="dob" >
+            <span class="error" id="dobError"></span>
+
+            <label for="number">Number:</label>
+            <input type="text" id="number" name="number" placeholder="+00 00000 00000">
+            <span class="error" id="numberError"></span>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your mail here">
+            <span class="error" id="emailError"></span>
+            <button type="submit">Submit</button>
+        </form>
+
+        <div class="card" id="card" style="display: none;">
+            <div class="card-front">
+                <p class="m">ID: <span id="cardId"></span></p>
+                <p class="u">DOB: <span id="cardDob"></span></p>
+                <p>Number: <span id="cardNumber"></span></p>
+                <p>Email: <span id="cardEmail"></span></p>
+                <button id="flipButton">Flip Card</button>
+                <button id="editButton">Edit</button>
+            </div>
+
+            <div class="card-back" style="display: none;">
+                <div class="child1">
+                    <div class="p1"><h1><u>COMPANY NAME :-</u></h1>
+                <P>TAGLINE GOES HERE</P>
+                    </div>
+                <!-- <p>Lorem ipsum dolor sit .</p>
+                <p>Lorem ipsum dolor sit amet consectetur,  </p> -->
+                
+                <label for="dob1">JOINED DATE :</label>
+                <input type="date" id="dob1" name="dob" >
+
+                <label for="dob2">EXPIRE DATE :</label>
+                <input type="date" id="dob2" name="dob" >
+                <p id="k">YOUR SIGNATURE</p>
+                <P id="a">YOUR SINCERELY</P>
+                <button id="flipBackButton">Flip Back</button>
+            </div>
+
+    </div>
+    </div>
+
+        
+    </section>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.parent{
+    background-color: gray ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 900px;
+    margin: 250px;
+
+}
+
+.child {
+    border:15px solid yellow;
+    height: 540px;
+    width: 350px;
+    border-radius: 15%;
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+   gap:10px;
+    padding: 15px;
+}
+
+.p2{
+height: 80px;
+width: 80px;
+border-radius: 50%;
+background-color: aqua;
+background-image: url("mern\ stack\ practice.webp");
+background-size: cover;
+}
+
+form{
+display: flex;
+flex-direction: column;
+gap:8px;
+}
+button{
+    border-radius: 15px;
+    background-color: skyblue;
+   
+    
+}
+
+
+.card {
+    border: 3px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    height: 250px;
+    background-color: lightblue;
+    
+}
+
+.card-front, .card-back {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    
+} 
+
+#flipButton, #editButton{
+    background-color: blanchedalmond;
+    width: 90px;
+    
+}
+
+.p1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+#dob1, #dob2 {
+  
+    margin-top: 15px;
+}
+#k{
+    
+    margin-top: 15px;
+    display: flex;
+justify-content: flex-start;
+}
+#a{
+    
+    display: flex;
+justify-content: flex-start;
+}
+#flipBackButton{
+    width: 90px;
+    margin-top: 20px;
+    
+}
+
+.error {
+    display: flex;
+    
+}
+
+
+
